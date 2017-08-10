@@ -1,0 +1,27 @@
+// 定义变量 和使用变量
+@setcolor: #5b83ad;
+@light-blue: @setcolor + #111;
+
+.header {
+    color: @setcolor;
+}
+
+.title {
+    color: @light-blue;
+}
+
+#header {
+  color: black;
+  .navigation {
+    font-size: 12px;
+  }
+  .logo {
+    width: 3050px;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color:#ffffff;
+}
